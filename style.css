@@ -1,0 +1,11 @@
+form, .boxes {
+  margin: 30px auto;
+}
+input {
+  margin-bottom: 10px;
+}
+
+.box {
+  border: 1px solid black;
+  margin: 3px;
+}

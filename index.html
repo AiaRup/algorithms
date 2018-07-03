@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Sort</title>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+        <form class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="inputNumber">Enter a number</label>
+              <input type="number" class="form-control" id="validationCustom01" placeholder="integer" required>
+              <div class="invalid-feedback"> Please provide a valid number</div>
+
+              <!-- <input type="text" class="form-control" id="validationCustom02" placeholder="color" required>
+              <div class="invalid-feedback"> Please provide a valid color</div> -->
+
+              <button type="submit" id="add" class="btn btn-primary">Add</button>
+              <button type="button" id="sort" class="btn btn-warning">Sort by size</button>
+              <button type="button" id="shuffle" class="btn btn-success">Shuffle</button>
+              <!-- <button type="button" id="sortColor" class="btn btn-danger">Sort by color</button> -->
+            </div>
+          </form>
+      </div>
+      <div class="row">
+        <div class="boxes"></div>
+      </div>
+
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="sort.js"></script>
+</body>
+</html>
